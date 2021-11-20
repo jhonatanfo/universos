@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Swiss721BT-ThinItalic';
+  src: url('Swiss721BT-ThinItalic.eot');
+  src: url('Swiss721BT-ThinItalic.eot?#iefix') format('embedded-opentype'),
+       url('Swiss721BT-ThinItalic.svg#Swiss721BT-ThinItalic') format('svg'),
+       url('Swiss721BT-ThinItalic.ttf') format('truetype'),
+       url('Swiss721BT-ThinItalic.woff') format('woff'),
+       url('Swiss721BT-ThinItalic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

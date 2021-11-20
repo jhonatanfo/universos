@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Swis721_Ex_BT_Roman';
+  src: url('Swis721_Ex_BT_Roman.eot');
+  src: url('Swis721_Ex_BT_Roman.eot?#iefix') format('embedded-opentype'),
+       url('Swis721_Ex_BT_Roman.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Swiss721BT-RomanExtended';
+  src: url('Swiss721BT-RomanExtended.svg#Swiss721BT-RomanExtended') format('svg'),
+       url('Swiss721BT-RomanExtended.ttf') format('truetype'),
+       url('Swiss721BT-RomanExtended.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+

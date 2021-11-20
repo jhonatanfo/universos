@@ -1,0 +1,2243 @@
+@import url('https://fonts.googleapis.com/css?family=BenchNine:300,400,700&display=swap');
+
+/* 
+font-family: 'Swis721_Cn_BT_Bold_Italic';
+font-family: 'Swiss721BT-BoldCondensedItalic';
+font-family: 'Swis721_Cn_BT_Bold';
+font-family: 'Swiss721BT-BoldCondensed';
+font-family: 'Swis721_BT_Italic';
+font-family: 'Swiss721BT-Italic';
+font-family: 'Swis721_BT_Bold';
+font-family: 'Swiss721BT-Bold';
+font-family: 'Swiss721BT-ThinItalic';
+font-family: 'Swis721_Th_BT_Thin_Italic';
+font-family: 'Swiss721BT-ThinItalic';
+font-family: 'Swis721_Md_BT_Medium_Italic';
+font-family: 'Swiss721BT-MediumItalic';
+font-family: 'Swis721_LtEx_BT_Light';
+font-family: 'Swiss721BT-LightExtended';
+font-family: 'Swis721_LtCn_BT_Light_Italic';
+font-family: 'Swiss721BT-LightCondensedItalic';
+font-family: 'Swis721_Lt_BT_Light_Italic';
+font-family: 'Swiss721BT-LightItalic';
+font-family: 'Swis721_Lt_BT_Light';
+font-family: 'Swiss721BT-Light';
+font-family: 'Swis721_Hv_BT_Heavy_Italic';
+font-family: 'Swiss721BT-HeavyItalic';
+font-family: 'Swis721_Ex_BT_Roman';
+font-family: 'Swiss721BT-RomanExtended';
+font-family: 'Swis721_Cn_BT_Roman';
+font-family: 'Swis721_Hv_BT_Heavy_Italic';
+font-family: 'Swis721_Cn_BT_Italic';
+font-family: 'Swiss721BT-ItalicCondensed'; 
+*/
+
+@font-face {
+    font-family: 'Swis721_Cn_BT_Bold_Italic';
+    src: url('../fonts/Swis721_Cn_BT_Bold_Italic.eot');
+    src: url('../fonts/Swis721_Cn_BT_Bold_Italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Swis721_Cn_BT_Bold_Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Swiss721BT-BoldCondensedItalic';
+    src: url('../fonts/Swiss721BT-BoldCondensedItalic.svg#Swiss721BT-BoldCondensedItalic') format('svg'),
+         url('../fonts/Swiss721BT-BoldCondensedItalic.ttf') format('truetype'),
+         url('../fonts/Swiss721BT-BoldCondensedItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Swis721_Cn_BT_Bold';
+    src: url('../fonts/Swis721_Cn_BT_Bold.eot');
+    src: url('../fonts/Swis721_Cn_BT_Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Swis721_Cn_BT_Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Swiss721BT-BoldCondensed';
+    src: url('../fonts/Swiss721BT-BoldCondensed.svg#Swiss721BT-BoldCondensed') format('svg'),
+         url('../fonts/Swiss721BT-BoldCondensed.ttf') format('truetype'),
+         url('../fonts/Swiss721BT-BoldCondensed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Swis721_BT_Italic';
+    src: url('../fonts/Swis721_BT_Italic.eot');
+    src: url('../fonts/Swis721_BT_Italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Swis721_BT_Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Swiss721BT-Italic';
+    src: url('../fonts/Swiss721BT-Italic.svg#Swiss721BT-Italic') format('svg'),
+         url('../fonts/Swiss721BT-Italic.ttf') format('truetype'),
+         url('../fonts/Swiss721BT-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Swis721_BT_Bold';
+    src: url('../fonts/Swis721_BT_Bold.eot');
+    src: url('../fonts/Swis721_BT_Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Swis721_BT_Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Swiss721BT-Bold';
+    src: url('../fonts/Swiss721BT-Bold.svg#Swiss721BT-Bold') format('svg'),
+         url('../fonts/Swiss721BT-Bold.ttf') format('truetype'),
+         url('../fonts/Swiss721BT-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Swiss721BT-ThinItalic';
+    src: url('../fonts/Swiss721BT-ThinItalic.eot');
+    src: url('../fonts/Swiss721BT-ThinItalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Swiss721BT-ThinItalic.svg#Swiss721BT-ThinItalic') format('svg'),
+         url('../fonts/Swiss721BT-ThinItalic.ttf') format('truetype'),
+         url('../fonts/Swiss721BT-ThinItalic.woff') format('woff'),
+         url('../fonts/Swiss721BT-ThinItalic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Swis721_Th_BT_Thin_Italic';
+    src: url('../fonts/Swis721_Th_BT_Thin_Italic.eot');
+    src: url('../fonts/Swis721_Th_BT_Thin_Italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Swis721_Th_BT_Thin_Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Swiss721BT-ThinItalic';
+    src: url('../fonts/Swiss721BT-ThinItalic.svg#Swiss721BT-ThinItalic') format('svg'),
+         url('../fonts/Swiss721BT-ThinItalic.ttf') format('truetype'),
+         url('../fonts/Swiss721BT-ThinItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Swis721_Md_BT_Medium_Italic';
+    src: url('../fonts/Swis721_Md_BT_Medium_Italic.eot');
+    src: url('../fonts/Swis721_Md_BT_Medium_Italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Swis721_Md_BT_Medium_Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Swiss721BT-MediumItalic';
+    src: url('../fonts/Swiss721BT-MediumItalic.svg#Swiss721BT-MediumItalic') format('svg'),
+         url('../fonts/Swiss721BT-MediumItalic.ttf') format('truetype'),
+         url('../fonts/Swiss721BT-MediumItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Swis721_LtEx_BT_Light';
+    src: url('../fonts/Swis721_LtEx_BT_Light.eot');
+    src: url('../fonts/Swis721_LtEx_BT_Light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Swis721_LtEx_BT_Light.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Swiss721BT-LightExtended';
+    src: url('../fonts/Swiss721BT-LightExtended.svg#Swiss721BT-LightExtended') format('svg'),
+         url('../fonts/Swiss721BT-LightExtended.ttf') format('truetype'),
+         url('../fonts/Swiss721BT-LightExtended.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Swis721_LtCn_BT_Light_Italic';
+    src: url('../fonts/Swis721_LtCn_BT_Light_Italic.eot');
+    src: url('../fonts/Swis721_LtCn_BT_Light_Italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Swis721_LtCn_BT_Light_Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Swiss721BT-LightCondensedItalic';
+    src: url('../fonts/Swiss721BT-LightCondensedItalic.svg#Swiss721BT-LightCondensedItalic') format('svg'),
+         url('../fonts/Swiss721BT-LightCondensedItalic.ttf') format('truetype'),
+         url('../fonts/Swiss721BT-LightCondensedItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Swis721_Lt_BT_Light_Italic';
+    src: url('../fonts/Swis721_Lt_BT_Light_Italic.eot');
+    src: url('../fonts/Swis721_Lt_BT_Light_Italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Swis721_Lt_BT_Light_Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Swiss721BT-LightItalic';
+    src: url('../fonts/Swiss721BT-LightItalic.svg#Swiss721BT-LightItalic') format('svg'),
+         url('../fonts/Swiss721BT-LightItalic.ttf') format('truetype'),
+         url('../fonts/Swiss721BT-LightItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+  @font-face {
+    font-family: 'Swis721_Lt_BT_Light';
+    src: url('../fonts/Swis721_Lt_BT_Light.eot');
+    src: url('../fonts/Swis721_Lt_BT_Light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Swis721_Lt_BT_Light.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Swiss721BT-Light';
+    src: url('../fonts/Swiss721BT-Light.svg#Swiss721BT-Light') format('svg'),
+         url('../fonts/Swiss721BT-Light.ttf') format('truetype'),
+         url('../fonts/Swiss721BT-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Swis721_Hv_BT_Heavy_Italic';
+    src: url('../fonts/Swis721_Hv_BT_Heavy_Italic.eot');
+    src: url('../fonts/Swis721_Hv_BT_Heavy_Italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Swis721_Hv_BT_Heavy_Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Swiss721BT-HeavyItalic';
+    src: url('../fonts/Swiss721BT-HeavyItalic.svg#Swiss721BT-HeavyItalic') format('svg'),
+         url('../fonts/Swiss721BT-HeavyItalic.ttf') format('truetype'),
+         url('../fonts/Swiss721BT-HeavyItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Swis721_Ex_BT_Roman';
+    src: url('../fonts/Swis721_Ex_BT_Roman.eot');
+    src: url('../fonts/Swis721_Ex_BT_Roman.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Swis721_Ex_BT_Roman.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Swiss721BT-RomanExtended';
+    src: url('../fonts/Swiss721BT-RomanExtended.svg#Swiss721BT-RomanExtended') format('svg'),
+         url('../fonts/Swiss721BT-RomanExtended.ttf') format('truetype'),
+         url('../fonts/Swiss721BT-RomanExtended.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Swis721_Cn_BT_Roman';
+    src: url('../fonts/Swis721_Cn_BT_Roman.eot');
+    src: url('../fonts/Swis721_Cn_BT_Roman.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Swis721_Cn_BT_Roman.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Swiss721BT-RomanCondensed';
+    src: url('../fonts/Swiss721BT-RomanCondensed.svg#Swiss721BT-RomanCondensed') format('svg'),
+         url('../fonts/Swiss721BT-RomanCondensed.ttf') format('truetype'),
+         url('../fonts/Swiss721BT-RomanCondensed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'Swis721_Cn_BT_Italic';
+    src: url('../fonts/Swis721_Cn_BT_Italic.eot');
+    src: url('../fonts/Swis721_Cn_BT_Italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Swis721_Cn_BT_Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Swiss721BT-ItalicCondensed';
+    src: url('../fonts/Swiss721BT-ItalicCondensed.svg#Swiss721BT-ItalicCondensed') format('svg'),
+         url('../fonts/Swiss721BT-ItalicCondensed.ttf') format('truetype'),
+         url('../fonts/Swiss721BT-ItalicCondensed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }  
+
+body{
+    margin: 0;
+    font-family: 'BenchNine', sans-serif;
+}
+
+.sem-espaco{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/**/
+.menu{
+  -webkit-transition: all .800s;
+  -moz-transition: all .800s;
+  -o-transition: all .800s;
+  transition: all .800s;
+}
+
+.menu.small{
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  background: rgb(253, 253, 253);
+  width: 100%;
+  height: 90px;
+  box-shadow: 0px -4px 9px rgba(0,0,0,0.5);
+}
+
+.menu.small .logo {
+  margin-top: 7px;
+  width: 75px;
+  box-shadow: 0px -1px 9px rgba(0, 0, 0, 0.05);
+  border-radius: 100%;
+}
+
+.menu.small .redes-sociais{
+  display: none
+}
+
+.menu.small .navbar.navbar-inverse{
+  top: 26px;
+}
+
+.menu.small .navbar-nav li a{
+  color: #caab6b !important
+}
+
+.menu.small .navbar-nav li:hover a{
+  color: white !important;
+  text-shadow: none;
+}
+
+/**/
+
+.slide-home{
+  position: absolute !important;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+.slide-home .box{
+  object-fit: cover;
+  height: 99.6vh;
+  background-size: cover;
+  position: relative;
+}
+
+.bg-banner-principal{
+    /* background: url(../img/banner-principal.jpg) center / cover; */
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    border-bottom: 5px solid #9e7b13;
+}
+
+.redes-sociais{
+    padding: 0;
+    float: right;
+    margin: 0;
+    margin-top: 16px;
+}
+
+.redes-sociais li{
+    list-style: none;
+    float: left;
+}
+
+ .redes-sociais li:hover img{
+  opacity: 0.3;
+  transition: 0.2s;
+}
+
+ .logo{
+    margin-top: 20px;
+    width: 200px;
+}
+
+.navbar.navbar-inverse{
+    background: transparent;
+    border: transparent;
+    position: absolute;
+    left: inherit;
+    right: 0;
+    top: 65px;
+}
+
+ .collapse.navbar-collapse{
+    padding: 0;
+}
+
+ .navbar-nav {
+    float: right;
+}
+
+.navbar-nav li{
+    font-family: 'BenchNine', sans-serif;
+    font-size: 19px;
+    color: white;
+    transition: 0.2s;
+}
+
+.navbar-nav li a{
+    color: white !important;
+    text-decoration: none;
+    padding: 9px 13px;
+}
+
+ .navbar-nav li:hover{
+    background: #caab6b;
+    border-radius: 4px;
+}
+
+ .txt-banner-principal i{
+    font-family: 'Swis721_Cn_BT_Italic';
+    color: white;
+    font-size: 24px;
+}
+
+.txt-banner-principal{
+    color: white;
+    font-size: 60px;
+    font-family: 'Swis721_Cn_BT_Bold';
+    margin-bottom: 25px;
+}
+
+ .ouca-agora{
+    font-family: 'Swis721_LtEx_BT_Light';
+    color: white;
+    font-size: 12px;
+}
+
+
+ .lista-tipo-music{
+    padding: 0;
+    margin-left: -13px;
+}
+
+ .lista-tipo-music li{
+    width: 20%;
+    float: left;
+    list-style: none;
+}
+ .lista-tipo-music li img{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+ .lista-tipo-music li:hover img{
+  opacity: 0.4;
+}
+
+ .position-bottom{
+  bottom: 61px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+ .icon-arrow{
+    background: url(../img/icon-arrow.png);
+    width: 30px;
+    height: 16px;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 26px;
+    cursor: pointer;
+    -moz-animation: bounce 3s infinite;
+	-webkit-animation: bounce 3s infinite;
+	animation: bounce 3s infinite;
+}
+
+ .player-destaque{
+    margin-top: 40px;
+    width: 100%;
+}
+
+.position-absolute{
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  right: 0;
+}
+
+.bg-eventos{
+    padding: 40px 0;
+}
+
+.bg-eventos h2{
+    font-size: 36px;
+    font-family: 'Swis721_Cn_BT_Roman';
+    color: #000000;
+    margin-bottom: 17px;
+}
+
+.bg-eventos h2 span{
+    font-size: 60px;
+    color: #caab6b;
+    font-family: 'Swis721_Cn_BT_Bold';
+}
+
+.bg-eventos p{
+    font-size: 24px;
+    font-family: 'Swis721_Cn_BT_Roman';
+    color: #909090;
+    margin: 0;
+    line-height: 17px;
+    margin-bottom: 20px;
+}
+
+.bg-eventos .icon-calendario-small{
+    background: url(../img/icon-calendario.png);
+    width: 15px;
+    height: 16px;
+    float: left;
+    margin-right: 9px;
+}
+
+.evento-destaque img{
+  height: 362px;
+  object-fit: cover;
+}
+
+
+
+.bg-eventos .evento-destaque h2{
+    font-size: 24px;
+    font-family: 'Swis721_Cn_BT_Bold';
+    color: #222222;
+    margin-bottom: 9px;
+    margin-top: 11px;
+}
+
+.bg-eventos .evento-destaque p{
+    font-family: 'Swis721_Cn_BT_Roman';
+    color: #404040;
+    font-size: 19px;
+    float: left;
+    width: 67%;
+    line-height: 23px;
+}
+
+.bg-eventos .evento-destaque a{
+    float: right;
+    color: white;
+    background: #9e7b13;
+    padding: 3px 10px;
+    font-family: 'Swiss721BT-Light';
+    border-radius: 2px;
+    font-size: 13px;
+    text-decoration: none;
+    margin-top: 11px;
+    transition: 0.2s;
+}
+
+.bg-eventos .evento-destaque a:hover{
+  background: #876602;
+}
+
+.bg-eventos .evento-destaque-data {
+    padding: 0;
+}
+
+.bg-eventos .evento-destaque-data li{
+    list-style: none;
+    height: 92px;
+    font-size: 24px;
+    font-family: 'Swis721_Cn_BT_Bold';
+    color: #909090;
+    line-height: 27px;
+    padding: 20px 0;
+}
+
+.bg-eventos .evento-destaque-data li b{
+    font-family: 'Swis721_Cn_BT_Bold';
+    color: #222222;
+    font-size: 60px;
+    float: left;
+    margin-right: 23px;
+    line-height: 85px;
+    margin-top: -15px;
+}
+
+
+.bg-eventos .evento-destaque-data li span{
+    color: #9e7b13;
+}
+
+.bg-eventos .btn-mais-eventos{
+    color: white;
+    background: #9e7b13;
+    padding: 9px 10px;
+    font-family: 'Swiss721BT-Light';
+    border-radius: 2px;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 0 auto;
+    display: block;
+    width: 123px;
+    text-align: center;
+    border-bottom: 3px solid #876910;
+    margin-top: 20px;
+    transition: 0.2s;
+}
+
+.bg-eventos .btn-mais-eventos:hover{
+  background: #876910;
+}
+
+
+.bg-assista-agora{
+    background: url(../img/bg-assista-agora.jpg);
+    width: 100%;
+    display: block;
+    border-top: 3px solid #876910;
+    border-bottom: 3px solid #876910;
+    padding: 36px 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-assista-agora h2{
+    font-family: 'Swis721_Cn_BT_Bold';
+    color: #caab6b;
+    font-size: 60px;
+    text-align: center;
+}
+
+.bg-assista-agora h2 span{
+  color: white;
+}
+
+.bg-assista-agora p{
+  font-size: 30px;
+  font-family: 'Swis721_Cn_BT_Roman';
+  color: white;
+  text-align: center;
+}
+
+.bg-assista-agora .slide-assista{
+  padding: 0 110px;
+}
+
+.bg-assista-agora .slide-assista .box {
+  position: relative;
+  margin: 20px 0;
+}
+
+.bg-assista-agora .slide-assista .box img{
+  width: 100%;
+  border: 1px solid #7b787f;
+}
+
+.bg-assista-agora .slide-assista .box .player-large{
+  background: url(../img/icon-player.png) center no-repeat;
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  transition: 0.2s;
+}
+
+.bg-assista-agora .slide-assista .box .player-large:hover{
+  transform: scale(0.7);
+}
+
+
+.slick-prev:before{
+  background: url(../img/icon-seta.png);
+}
+
+
+.slick-next:before {
+  background: url(../img/icon-seta-right.png);
+}
+
+
+.slick-prev:before, 
+.slick-next:before {
+  color: transparent !important;
+  position: absolute;
+  left: 0;
+  width: 56px;
+  height: 56px;
+  top: 0;
+}
+
+.slick-next {
+  right: 0 !important;
+  width: 56px !important;
+  height: 56px !important;
+}
+
+.slick-prev {
+  left: 0 !important;
+  width: 56px !important;
+  height: 56px !important;
+  z-index: 2;
+}
+
+.bg-banda{
+  padding: 60px 0;
+}
+
+.bg-banda h1{
+  font-size: 36px;
+  font-family: 'Swis721_Cn_BT_Roman';
+  color: #000000;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.bg-banda h1 span{
+  font-family: 'Swis721_Cn_BT_Bold';
+  color: #caab6b;
+  font-size: 60px;
+  text-align: center;
+}
+
+.bg-banda h2{
+  font-size: 24px;
+    font-family: 'Swis721_Cn_BT_Bold';
+    color: #222222;
+    margin-bottom: 9px;
+    margin-top: 11px;
+}
+
+.bg-banda p{
+  font-family: 'Swis721_Cn_BT_Roman';
+  color: #404040;
+  font-size: 18.5px;
+}
+
+.bg-banda a{
+  color: white;
+  background: #9e7b13;
+  padding: 9px 10px;
+  font-family: 'Swiss721BT-Light';
+  border-radius: 2px;
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+  width: 123px;
+  text-align: center;
+  border-bottom: 3px solid #876910;
+  margin-top: 33px;
+  transition: 0.2s;
+}
+
+.bg-banda a:hover{
+  color: white;
+  text-decoration: none;
+  background: #876602;
+}
+
+/**/
+
+.bg-discografia{
+  background: url(../img/bg-discografia.jpg);
+  width: 100%;
+  display: block;
+  border-top: 3px solid #876910;
+  border-bottom: 3px solid #876910;
+  padding: 20px 0;
+}
+
+.bg-discografia h2{
+  font-family: 'Swis721_Cn_BT_Bold';
+  color: #caab6b;
+  font-size: 60px;
+  text-align: center;
+}
+
+.bg-discografia h2 span{
+color: white;
+}
+
+.bg-discografia p{
+font-size: 30px;
+font-family: 'Swis721_Cn_BT_Roman';
+color: white;
+text-align: center;
+}
+
+.bg-discografia .slide-discografia{
+padding: 0 110px;
+}
+
+.bg-discografia .slide-discografia .box {
+position: relative;
+margin: 20px 0;
+}
+
+.bg-discografia .slide-discografia .box img{
+  width: 100%;
+  padding: 15px;
+  cursor: pointer;
+}
+ 
+.bg-rodape-info{
+ background: #222222;
+ padding: 40px 0;
+}
+
+.bg-rodape-info h2{
+  font-size: 21px;
+  font-family: 'Swis721_Cn_BT_Bold';
+  color: #c4a66b;
+  letter-spacing: 2px;
+  border-bottom: 1px solid #4e4e4e;
+  padding-bottom: 13px;
+ }
+
+ footer .bg-rodape-info .menu-rodape{
+  padding: 0;
+  margin-bottom: 75px;
+}
+
+footer .bg-rodape-info .menu-rodape li{
+  float: left;
+  list-style: none;
+  padding-right: 16px;
+}
+
+footer .bg-rodape-info .menu-rodape li a{
+  color: #a5a5a5;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+footer .bg-rodape-info .menu-rodape li:hover a {
+  opacity: 0.3;
+}
+
+.rodape-redes{
+  padding: 0;
+  display: inline-block;
+}
+
+.rodape-redes li{
+  list-style: none;
+  float: left;
+  margin-right: 10px;
+}
+
+.rodape-icon-facebook{
+  background: url('../img/icon-rodape-facebook.png') center no-repeat;
+  width: 45px;
+  height: 45px;
+  display: block;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.rodape-icon-facebook:hover{
+  opacity: 0.5;
+}
+.rodape-icon-instagram{
+  background: url('../img/icon-rodape-instagram.png') center no-repeat;
+  width: 45px;
+  height: 45px;
+  display: block;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.rodape-icon-instagram:hover{
+  opacity: 0.5;
+}
+.rodape-icon-youtube{
+  background: url('../img/icon-rodape-youtube.png') center no-repeat;
+  width: 45px;
+  height: 45px;
+  display: block;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.rodape-icon-youtube:hover{
+  opacity: 0.5;
+}
+.rodape-icon-spotify{
+  background: url('../img/icon-rodape-spotify.png') center no-repeat;
+  width: 45px;
+  height: 45px;
+  display: block;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.rodape-icon-spotify:hover{
+  opacity: 0.5;
+}
+.rodape-icon-drive{
+  background: url('../img/icon-rodape-drive.png') center no-repeat;
+  width: 45px;
+  height: 45px;
+  display: block;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.rodape-icon-drive:hover{
+  opacity: 0.5;
+}
+footer .bg-rodape-info p{
+  font-family: 'Swis721_Cn_BT_Roman';
+  color: #a5a5a5;
+  font-size: 18px;
+  margin-bottom: 34px;
+}
+
+
+footer .bg-rodape-info form label i{
+background: url('../img/icon-email-news.png') center no-repeat;
+width: 42px;
+height: 46px;
+float: left;
+}
+
+footer .bg-rodape-info form label input{
+  background: #1b1b1b;
+  border: none;
+  border-top: 1px solid #222222;
+  border-bottom: 1px solid #222222;
+  height: 46px;
+  width: 64%;
+  padding: 0 15px;
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+  color: #a5a5a5;
+}
+
+footer .bg-rodape-info form label button{
+  color: white;
+  background: #9e7b13;
+  padding: 9px 10px;
+  font-family: 'Swiss721BT-Light';
+  border-radius: 0px 2px 2px 0px;
+  font-size: 15px;
+  text-align: center;
+  border: none;
+  float: right;
+  height: 46px;
+  font-weight: 300;
+}
+
+footer .bg-rodape-info form label {
+  width: 100%;
+}
+
+::-webkit-input-placeholder { /* Edge */
+  color: #a5a5a5;
+  font-family: 'Swiss721BT-Light';
+  font-size: 16px;
+  font-weight: 300;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #a5a5a5;
+  font-family: 'Swiss721BT-Light';
+  font-size: 16px;
+  font-weight: 300;
+}
+
+::placeholder {
+  color: #a5a5a5;
+  font-family: 'Swiss721BT-Light';
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.bg-rodape{
+  background: #1b1b1b;
+  color: #a5a5a5;
+  font-size: 14px;
+  padding: 25px 0;
+  opacity: 0.2s;
+}
+
+.bg-rodape a{
+  color: #a5a5a5;
+}
+
+.bg-rodape a:hover{
+  color: #876602;
+}
+
+.position-bottom .player-large i{
+  background: url(../img/icon-player.png) center no-repeat;
+  width: 100%;
+  height: 73%;
+  display: block;
+  position: absolute;
+  margin-top: 20px;
+  transition: 0.2s;
+}
+
+.position-bottom .player-large i:hover{
+  transform: scale(0.9);
+}
+
+.bg-release{
+  background: url('../img/bg-release.jpg');
+  width: 100%;
+  height: 100%;
+  padding-top: 260px;
+  padding-bottom: 70px;
+}
+
+.release h1{
+  font-size: 36px;
+  font-family: 'Swis721_Cn_BT_Roman';
+  color: white;
+  line-height: 50px;
+  margin-bottom: 35px;
+}
+
+.release h1 span{
+  font-size: 60px;
+  color: #caab6b;
+  font-family: 'Swis721_Cn_BT_Bold';
+}
+
+.release img{
+  width: 100%;
+}
+
+.release p{
+  font-family: 'Swis721_Cn_BT_Roman';
+  color: white;
+  font-size: 18.5px;
+}
+
+.release-chamadas{
+  padding: 20px 0 60px 0;
+}
+
+.release-chamadas h2{
+  font-size: 36px;
+  font-family: 'Swis721_Cn_BT_Roman';
+  color: black;
+  line-height: 50px;
+  margin-bottom: 35px;
+}
+.release-chamadas h2 span{
+  font-size: 60px;
+  color: #caab6b;
+  font-family: 'Swis721_Cn_BT_Bold';
+}
+
+.release-chamadas img{
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.release-chamadas .evento-destaque-data {
+  padding: 0;
+}
+
+.release-chamadas .evento-destaque-data li{
+  list-style: none;
+  height: 92px;
+  font-size: 24px;
+  font-family: 'Swis721_Cn_BT_Bold';
+  color: #909090;
+  line-height: 27px;
+  padding: 20px 0;
+}
+
+.release-chamadas .evento-destaque-data li b{
+  font-family: 'Swis721_Cn_BT_Bold';
+  color: #222222;
+  font-size: 60px;
+  float: left;
+  margin-right: 23px;
+  line-height: 85px;
+  margin-top: -15px;
+}
+
+
+.release-chamadas .evento-destaque-data li span{
+  color: #9e7b13;
+}
+
+.release-chamadas .btn-mais-eventos{
+  color: white;
+  background: #9e7b13;
+  padding: 9px 10px;
+  font-family: 'Swiss721BT-Light';
+  border-radius: 2px;
+  font-size: 16px;
+  text-decoration: none;
+  margin: 0 auto;
+  display: block;
+  width: 123px;
+  text-align: center;
+  border-bottom: 3px solid #876910;
+  margin-top: 20px;
+  transition: 0.2s;
+}
+
+.release-chamadas .btn-mais-eventos:hover{
+  background: #876910;
+}
+
+.bg-discografia-pag{
+  background: url('../img/bg-discografia-pagina.jpg');
+  width: 100%;
+  height: 100%;
+  padding-top: 260px;
+  padding-bottom: 35px;
+}
+
+.bg-discografia-pag h1{
+  font-size: 36px;
+  font-family: 'Swis721_Cn_BT_Roman';
+  color: white;
+  line-height: 50px;
+  margin-bottom: 35px;
+}
+
+.bg-discografia-pag h1 span{
+  font-size: 60px;
+  color: #caab6b;
+  font-family: 'Swis721_Cn_BT_Bold';
+}
+
+.bg-discografia-pag img{
+  margin-bottom: 35px;
+}
+
+.bg-discografia-pag iframe{
+  margin-bottom: 50px;
+  }
+
+  ul.pagination {
+    margin: 0 auto;
+    display: block;
+    width: 315px;
+  }
+
+  .pagination>li>a {
+    color: white !important;
+    background-color: #caab6b !important;
+    margin: 0 1px !important;
+    border: none !important;
+    border-radius: 4px !important;
+    padding: 17px 25px !important;
+    font-size: 17px;
+  }
+
+  .pagination>li>a:hover{
+    color: #caab6b !important;
+    background-color: white !important;
+  }
+
+ 
+  .discografia-plataformas .lista-tipo-music li img{
+    width: initial;
+  }
+
+  .discografia-plataformas h2{
+    font-size: 32px;
+    font-family: 'Swis721_Cn_BT_Roman';
+    color: white;
+    line-height: 50px;
+    margin-top: 70px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .discografia-plataformas h2:after{
+    content: "";
+    float: left;
+    width: 100%;
+    height: 2px;
+    background: url(../img/icon-line.png);
+    background-size: 100%;
+    margin-top: 10px;
+  }
+
+  .bg-eventos-interna{
+    background: url(../img/bg-eventos-interna.jpg);
+    width: 100%;
+    height: 100%;
+    padding-top: 260px;
+    background-size: cover;
+  }
+
+  .eventos-interna{
+    padding: 50px 0;
+  }
+  
+  .eventos-interna-titulo h1{
+    font-size: 36px;
+    font-family: 'Swis721_Cn_BT_Roman';
+    color: white;
+    line-height: 50px;
+    margin-bottom: 35px;
+  }
+  
+  .eventos-interna-titulo h1 span{
+    font-size: 60px;
+    color: #caab6b;
+    font-family: 'Swis721_Cn_BT_Bold';
+  }
+
+  .slide-eventos img{
+    width: 100%;
+  }
+
+  .slide-eventos .slick-dots {
+    bottom: 15px;
+  }
+
+  .slide-eventos  .slick-dots li.slick-active button{
+    background: white;
+  }
+
+ .slide-eventos .slick-dots li button:before{
+   opacity: 0;
+ }
+ 
+ .slide-eventos .slick-dots li button:before {
+  font-family: inherit;
+  font-size: 0;
+ }
+
+  .slide-eventos .slick-dots li button {
+    background: rgba(255, 255, 255, 0.2196078431372549);
+  }
+
+  button#slick-slide-control00
+
+  .slide-eventos .slick-dots li button:before {
+    font-size: inherit;
+    line-height: 0;
+    height: 5px;
+  }
+
+  .slide-eventos .slick-dots li button {
+    height: 5px;
+    padding: 2px;
+  }
+
+  .slide-eventos .slick-dots li {
+    height: 5px;
+    float: left;
+    margin: 0 6px;
+  }
+
+  .slide-eventos ul.slick-dots {
+    background: rgba(46, 46, 46, 0.50);
+    margin: 0 auto;
+    width: 105px;
+    margin-top: -20px;
+    height: 17px;
+    padding: 6px 4px;
+    border-radius: 11px;
+    z-index: 2;
+    position: relative;
+
+}
+
+
+
+
+
+
+.eventos-interna-left h2{
+  font-size: 24px;
+  font-family: 'Swis721_Cn_BT_Bold';
+  color: #222222;
+}
+
+.eventos-interna-left h3{
+  font-size: 24px;
+    font-family: 'Swis721_Cn_BT_Roman';
+    color: #909090;
+    margin: 0;
+    line-height: 17px;
+    margin-bottom: 20px;
+}
+.eventos-interna-left h3 i{
+    background: url(../img/icon-calendario.png);
+    width: 15px;
+    height: 16px;
+    float: left;
+    margin-right: 9px;
+}
+.eventos-interna-left p{
+font-family: 'Swis721_Cn_BT_Roman';
+color: #404040;
+font-size: 19px;
+line-height: 23px;
+}
+
+.eventos-interna-right ul{
+  padding: 0;
+}
+
+.eventos-interna-right ul li{
+  list-style: none;
+  border-bottom: 1px solid #dcdcdc;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.eventos-interna-right h3{
+  font-size: 20px;
+    font-family: 'Swis721_Cn_BT_Roman';
+    color: #909090;
+    margin: 0;
+    line-height: 17px;
+}
+.eventos-interna-right h3 i{
+    background: url(../img/icon-calendario.png);
+    width: 15px;
+    height: 16px;
+    float: left;
+    margin-right: 9px;
+}
+
+.eventos-interna-right h2{
+  font-size: 20px;
+    font-family: 'Swis721_Cn_BT_Bold';
+    color: #9e7b13;
+    line-height: 24px;
+    margin: 7px 0 17px 0;
+}
+
+.eventos-interna-right h2 b{
+   color: #222222;
+}
+
+.eventos-interna-right .pagination>li>a{
+  padding: 10px 15px !important
+}
+
+.eventos-interna-right .pagination>li>a{
+  background-color: #b8b8b8 !important;
+}
+
+
+.eventos-interna-right nav,
+.eventos-interna-right ul.pagination {
+  margin: 0 auto;
+  display: block;
+  width: 208px;
+}
+
+.eventos-interna-right .pagination>li>a:hover {
+  color: white !important;
+  background-color: #caab6b !important;
+}
+
+
+
+.bg-contato{
+  background: url('../img/bg-contato.jpg');
+  width: 100%;
+  height: 100%;
+  padding-top: 260px;
+  padding-bottom: 70px;
+  background-size: cover;
+}
+
+.contato h1{
+  font-size: 36px;
+  font-family: 'Swis721_Cn_BT_Roman';
+  color: white;
+  line-height: 50px;
+  margin-bottom: 35px;
+}
+
+.contato h1 span{
+  font-size: 60px;
+  color: #caab6b;
+  font-family: 'Swis721_Cn_BT_Bold';
+}
+
+.contato-form{
+  background: white;
+  padding: 20px;
+  border-radius: 2px;
+}
+
+.contato-form h2{
+  font-size: 20px;
+  font-family: 'Swis721_Cn_BT_Bold';
+  color: #222222;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.contato-form label{
+  font-family: 'Swis721_Cn_BT_Roman';
+  color: #404040;
+  font-weight: 300;
+  font-size: 19px;
+}
+
+.contato-form input{
+  border-color: #dee5ed
+}
+
+.contato-form textarea{
+  border-color: #dee5ed;
+  width: 100%;
+  height: 150px;
+  border-radius: 2px;
+}
+
+.contato-form button{
+  color: white;
+    background: #9e7b13;
+    padding: 9px 40px;
+    font-family: 'Swiss721BT-Light';
+    border-radius: 2px;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    transition: 0.2s;
+    border: none;
+    border-bottom: 3px solid #876910;
+}
+
+.contato-form button:hover{
+    background: #876910;
+}
+
+.contato-right{
+  margin-top: 160px;
+}
+
+.contato-right h2{
+  font-size: 24px;
+  font-family: 'Swis721_Cn_BT_Bold';
+  color: #caab6b;
+  line-height: 29px;
+}
+
+.contato-right h2 span{
+  color: white;
+}
+
+
+.box-hover{
+  width: 100%;
+  height: 360px;
+  margin-bottom: 35px;
+  cursor: pointer;
+  background-size: cover;
+}
+
+.box-hover:hover ul{
+  opacity: 1;
+}
+
+.box-hover ul{
+  opacity: 0;
+  transition: 0.4s;
+  padding: 90px 37px;
+  width: 100%;
+  margin: 0 auto;
+  height: 360px;
+  background: rgba(0, 0, 0, 0.5686274509803921);
+}
+
+.box-hover ul li{
+  float: left;
+  list-style: none;
+  margin: 0 10px;
+}
+
+
+.box-hover ul li.largura1{
+  margin-left: 59px;
+  margin-top: 30px;
+}
+
+.box-hover ul li.largura2{
+  margin-top: 30px;
+}
+
+.box-hover ul li.opcao-01 i{
+  width: 75px;
+  height: 75px;
+  background: url(../img/opcao-01.png) center;
+  display: block;
+}
+.box-hover ul li.opcao-02 i{
+  width: 75px;
+  height: 75px;
+  background: url(../img/opcao-02.png) center;
+  display: block;
+}
+.box-hover ul li.opcao-03 i{
+  width: 75px;
+  height: 75px;
+  background: url(../img/opcao-03.png) center;
+  display: block;
+}
+.box-hover ul li.opcao-04 i{
+  width: 75px;
+  height: 75px;
+  background: url(../img/opcao-04.png) center;
+  display: block;
+}
+.box-hover ul li.opcao-05 i{
+  width: 75px;
+  height: 75px;
+  background: url(../img/opcao-05.png) center;
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width: 992px) and (max-width: 1199px) {
+  .box-hover ul li.opcao-01 i,
+  .box-hover ul li.opcao-02 i,
+  .box-hover ul li.opcao-03 i,
+  .box-hover ul li.opcao-04 i,
+  .box-hover ul li.opcao-05 i {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+  }
+
+  .box-hover ul {
+    padding: 85px 41px;
+  }
+
+  .box-hover ul li.largura1 {
+    margin-left: 48px;
+    margin-top: 17px;
+  }
+  .box-hover ul li.largura2 {
+    margin-top: 17px;
+  }
+
+  .box-hover,
+  .box-hover ul {
+    height: 270px;
+  }
+
+
+
+
+  .bg-eventos .evento-destaque-data li {
+    font-size: 20px;
+    height: 75px;
+    padding: 10px 0;
+  }
+  .bg-eventos .evento-destaque-data li b {
+    font-size: 50px;
+  }
+  .evento-destaque img {
+    height: 300px;
+  }
+  
+  footer .bg-rodape-info form label input {
+    width: 55%;
+  }
+  /**/
+  .release h1 {
+    font-size: 25px;
+    line-height: 36px;
+  }
+  .release h1 span {
+    font-size: 40px;
+  }
+  .release p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .release-chamadas h2 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .release-chamadas h2 span,
+  .release-chamadas .evento-destaque-data li b {
+    font-size: 40px;
+    line-height: 44px;
+    margin-top: -4px;
+  }
+  .release-chamadas iframe{
+    height: 293px;
+  }
+
+  .release-chamadas .evento-destaque-data li {
+    height: 60px;
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .eventos-interna-right h2 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+  .box-hover ul li.opcao-01 i,
+  .box-hover ul li.opcao-02 i,
+  .box-hover ul li.opcao-03 i,
+  .box-hover ul li.opcao-04 i,
+  .box-hover ul li.opcao-05 i {
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+  }
+
+  .box-hover ul {
+    padding: 61px 20px;
+  }
+
+  .box-hover ul li.largura1 {
+    margin-left: 48px;
+    margin-top: 17px;
+  }
+  .box-hover ul li.largura2 {
+    margin-top: 17px;
+  }
+
+  .box-hover,
+  .box-hover ul {
+    height: 220px;
+  }
+
+
+  .evento-destaque img {
+  height: 238px;
+  }
+  .logo{
+    width: 130px;
+  }
+
+  .navbar-nav li {
+    font-size: 17px;
+  }
+
+  .txt-banner-principal {
+    font-size: 40px;
+  }
+
+  .bg-banner-principal,
+  .slide-home .box {
+    height: 527px;
+  }
+  .bg-eventos .evento-destaque-data li {
+    font-size: 14px;
+    height: 50px;
+    padding: 10px 0;
+    line-height: 17px;
+  }
+  .bg-eventos .evento-destaque-data li b {
+    font-size: 25px;
+    line-height: 61px;
+  }
+  .bg-eventos .evento-destaque a {
+    float: inherit;
+  }
+  .bg-eventos .evento-destaque p {
+    float: inherit;
+    width: 100%;
+  }
+  .bg-eventos .btn-mais-eventos {
+    font-size: 14px;
+    width: 108px;
+  }
+  .bg-eventos h2 span {
+    font-size: 40px;
+  }
+  .bg-eventos h2 span {
+    font-size: 40px;
+  }
+  .bg-assista-agora h2 {
+    font-size: 38px;
+  }
+  .bg-assista-agora p {
+    font-size: 23px;
+  }
+   
+  .bg-assista-agora .slide-assista .box .player-large {
+    background-size: 12%;
+  } 
+  .bg-banda h1 span {
+    font-size: 36px;
+  }
+  .bg-banda h2,
+  .bg-banda p {
+    text-align: center;
+  }
+  .bg-banda a {
+      margin-top: 33px;
+      margin: 0 auto;
+  }
+  .bg-discografia h2 {
+    font-size: 39px;
+  }
+
+  footer .bg-rodape-info form label input {
+    width: 53%;
+  }
+
+  .position-bottom .player-large i{
+    width: 100%;
+    height: 62%;
+    background-size: 23%;
+  }
+
+  .bg-discografia-pag {
+    padding-top: 180px;
+  }
+
+  .bg-discografia-pag h1 {
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .bg-discografia-pag h1 span {
+    font-size: 40px;
+  }
+
+ 
+}
+
+@media(min-width: 0px) and (max-width: 767px) {
+  .box-hover ul li.opcao-01 i,
+  .box-hover ul li.opcao-02 i,
+  .box-hover ul li.opcao-03 i,
+  .box-hover ul li.opcao-04 i,
+  .box-hover ul li.opcao-05 i {
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+  }
+
+  .box-hover ul {
+    padding: 61px 20px;
+  }
+
+  .box-hover ul li.largura1 {
+    margin-left: 48px;
+    margin-top: 17px;
+  }
+  .box-hover ul li.largura2 {
+    margin-top: 17px;
+  }
+
+  .box-hover,
+  .box-hover ul {
+    height: 220px;
+    width: 220px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+  }
+
+
+
+
+  .logo{
+    width: 80px;
+  }
+  .redes-sociais {
+    display: none;
+  }
+  .bg-banner-principal,
+  .slide-home .box {
+    height: 450px;
+  }
+  .navbar.navbar-inverse {
+    top: 33px;
+  }
+  .navbar-inverse .navbar-toggle {
+    border-color: #caab6b !important;
+    background: #caab6b;
+    z-index: 5;
+  }
+  div#myNavbar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    border: none;
+    box-shadow: none;
+    z-index: 2;
+  }
+
+ .navbar-nav {
+    float: inherit;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.95);
+    top: 0;
+    height: 100vh;
+    margin: 0;
+    padding-top: 50px;
+  }
+
+  .icon-arrow{
+    display: none !important;
+  }
+
+  .position-bottom {
+    padding-top: 0;
+    margin: 0 auto;
+    display: block;
+  }
+  .txt-banner-principal{
+    text-align: center;
+    font-size: 32px;
+  }
+  .ouca-agora {
+      text-align: center;
+      display: block;
+  }
+  .lista-tipo-music {
+    padding: 0;
+    margin-left: 0;
+    width: 250px;
+    height: 26px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .player-destaque {
+      width: 220px;
+      margin: 0 auto;
+      display: block;
+      margin-top: 21px;
+  }
+
+  .bg-eventos h2 {
+    font-size: 23px;
+    text-align: center;
+  }
+
+  .bg-eventos h2 span {
+    font-size: 30px;
+  }
+
+  .bg-eventos p {
+    width: 150px;
+    margin: 0 auto;
+    margin-bottom: 27px;
+  }
+
+  .evento-destaque img {
+    height: 230px;
+    object-fit: cover;
+    margin: 0 auto;
+  }
+
+  .bg-eventos .evento-destaque p {
+    float: inherit;
+    width: 100%;
+    text-align: center;
+  }
+
+  .bg-eventos .evento-destaque a {
+    float: inherit;
+    margin: 0 auto;
+    display: block;
+    width: 83px;
+  }
+  .bg-eventos .evento-destaque-data {
+    width: 300px;
+    margin: 0 auto;
+  }
+  .bg-eventos .evento-destaque-data li b {
+    font-size: 43px;
+    margin-right: 0;
+    line-height: 72px;
+    float: inherit;
+    display: block;
+    text-align: center;
+  }
+  .bg-eventos .evento-destaque-data li {
+    line-height: 21px;
+    padding: 25px 0;
+    font-size: 17px;
+    text-align: center;
+    height: 127px;
+    /* width: 50%; */
+    /* float: left; */
+  }
+
+  .bg-assista-agora h2 {
+    font-size: 25px;
+  }
+  .bg-assista-agora p {
+    font-size: 18px;
+  }
+
+ 
+  .bg-assista-agora .slide-assista .box .player-large {
+    background-size: 12%;
+  } 
+ 
+  .slick-prev {
+    z-index: 12;
+  }
+
+  .bg-assista-agora .slide-assista {
+    padding: 0 20px;
+  }
+
+  .bg-banda h1 {
+    font-size: 27px;
+  }
+
+  .bg-banda h1 span {
+    font-size: 32px;
+  }
+  .bg-banda h2,
+  .bg-banda p {
+    text-align: center;
+  }
+  .bg-banda a {
+      margin-top: 33px;
+      margin: 0 auto;
+  }
+
+  .bg-discografia h2 {
+    font-size: 32px;
+  }
+  .bg-discografia .slide-discografia {
+    padding: 0 20px;
+  }
+
+  .bg-rodape-info h2{
+    text-align: center;
+  }
+
+  footer .bg-rodape-info .menu-rodape li {
+    padding-right: 0;
+    width: 100%;
+    text-align: center;
+    margin: 6px 0;
+  }
+
+ 
+
+
+  footer .bg-rodape-info .menu-rodape {
+    height: 190px;
+    margin-bottom: 30px;
+  }
+  .rodape-redes {
+    width: 275px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 93px;
+  }
+  footer .bg-rodape-info p {
+    text-align: center;
+  }
+  footer .bg-rodape-info form label {
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+  }
+  footer .bg-rodape-info form label input {
+    width: 50%;
+  }
+  .bg-rodape {
+    text-align: center;
+  }
+
+  .position-bottom .player-large i{
+    width: 100%;
+    height: 100%;
+    background-size: 7%;
+    margin-top: 0;
+  }
+  .bg-release{
+    padding-top: 130px;
+  }
+
+  .bg-discografia-pag h1 {
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .bg-discografia-pag h1 span {
+    font-size: 40px;
+  }
+
+  .bg-discografia-pag {
+    padding-top: 100px;
+    background-size: cover;
+  }
+  
+  ul.pagination {
+    display: block;
+    width: 258px;
+    margin: 0 auto;
+  }
+
+  .pagination>li>a {
+    padding: 12px 20px !important;
+  }
+
+  .discografia-plataformas h2 {
+    font-size: 22px;
+    line-height: 32px;
+    margin-top: 45px;
+  }
+
+  .discografia-plataformas .lista-tipo-music li {
+    width: 100%;
+  }
+
+}
+
+@media(min-width: 0px) and (max-width: 991px){
+
+  .eventos-interna-titulo h1,
+  .eventos-interna-titulo h1 span {
+    font-size: 32px;
+    text-align: center;
+    line-height: 36px;
+  }
+
+  .contato-right h2 {
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+}
+
+  .contato-right {
+    margin-top: 40px;
+}
+
+  .bg-contato {
+    padding-top: 120px;
+  }
+
+  .contato h1,
+  .contato h1 span {
+    font-size: 32px;
+    text-align: center;
+    line-height: 36px;
+  }
+
+  .bg-eventos-interna {
+    padding-top: 120px;
+  }
+
+  .release h1 {
+    font-size: 20px;
+    text-align: center;
+    line-height: 34px;
+    margin-bottom: 25px;
+  }
+  .release h1 span {
+    font-size: 35px;
+  }
+
+  .release img {
+    margin-bottom: 20px;
+  }
+
+  .release p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .bg-release {
+      padding-bottom: 30px;
+  }
+
+  .release-chamadas h2{
+    font-size: 20px;
+    text-align: center;
+    line-height: 34px;
+  }
+
+  .release-chamadas h2 span{
+    font-size: 35px;
+  }
+
+  .release-chamadas img,
+  .release-chamadas iframe{
+    width: 290px;
+    margin: 0 auto;
+    display: block;
+  }
+  .evento-destaque-data{
+    width: 290px;
+    margin: 0 auto;
+  }
+  .release-chamadas .evento-destaque-data li {
+    font-size: 17px;
+  }
+}
+
+
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  60% {
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}

@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Swis721_Lt_BT_Light_Italic';
+  src: url('Swis721_Lt_BT_Light_Italic.eot');
+  src: url('Swis721_Lt_BT_Light_Italic.eot?#iefix') format('embedded-opentype'),
+       url('Swis721_Lt_BT_Light_Italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Swiss721BT-LightItalic';
+  src: url('Swiss721BT-LightItalic.svg#Swiss721BT-LightItalic') format('svg'),
+       url('Swiss721BT-LightItalic.ttf') format('truetype'),
+       url('Swiss721BT-LightItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
